@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../../../assets/union.png"; // Ensure the path is correct
-import logo1 from "../../../assets/union1.png"; // Ensure the path is correct
+import logo from "../../../assets/Union.png"; // Ensure the path is correct
+import logo1 from "../../../assets/Union1.png"; // Ensure the path is correct
 
 const Navbar = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import TodoList from "../TodoList/TodoList";
+import TodoList from "../TodoList/todoList";
 import TodoDetail from "../TodoDetails/todoDetail";
 import { setSelectedTodo, fetchTodos } from "../../redux/actions/todoAction";
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
