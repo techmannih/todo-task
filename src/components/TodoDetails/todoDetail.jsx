@@ -63,7 +63,7 @@ const TodoDetail = ({ todo, onDeleteClick }) => {
             value={localTodo.title}
             onChange={handleChange}
             onBlur={handleUpdate}
-            className="w-full p-2 border-0 rounded text-3xl font-semibold placeholder-gray-500"
+            className="w-full p-2 border-0 rounded text-3xl font-semibold placeholder-gray-500 max-sm:text-xl"
             placeholder="Title"
           />
           <TrashIcon
@@ -83,7 +83,8 @@ const TodoDetail = ({ todo, onDeleteClick }) => {
           <XMarkIcon className="h-4 w-4 text-black mx-1 cursor-pointer" />
         </div>
 
-        <hr className="mt-3 text-black" />
+        <hr className="mt-3 border-black" />
+
         <div className="mt-4">
           <textarea
             name="description"
